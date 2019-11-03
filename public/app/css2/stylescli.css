@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Exo";
+    background-color: rgb(156, 218, 243);
+    color: #595959;
+  }
+  /*
+      Frameless			<http://framelessgrid.com/>
+      by Joni Korpi 		<http://jonikorpi.com/>
+      licensed under CC0	<http://creativecommons.org/publicdomain/zero/1.0/>
+  */
+  .buttons {
+    width: 460px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  button {
+    border: 0;
+    padding: 1em 1.5em;
+    background-color: #41a7c0;
+    color: #fff;
+    font-size: 1em;
+    font-family: "Exo";
+    outline: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s;
+    box-shadow: rgb(58, 133, 156) 0px -3px 0px 0px inset;
+  }
+  button:hover {
+    background-color: rgb(53, 111, 187);
+  }
+  button.active,
+  button:active {
+    background-color: #7ac8ff;
+  }
+  .boxes {
+    padding-top: 2em;
+    width: 65em;
+    margin: 0 auto;
+  }
+  .box {
+    width: 15em;
+    height: 17em;
+    float: left;
+    margin: 0 0 1em 1em;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgb(90, 173, 212);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .box img {
+    max-width: 100%;
+  }
+  .box .details {
+    padding: 1em;
+    text-align: center;
+  }
+  .box .title {
+    font-size: 1em;
+    padding-bottom: 0.5em;
+  }
+  .box .price {
+    color: rgb(88, 172, 211);
+  }
+
+  
+  

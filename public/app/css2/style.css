@@ -1,0 +1,40 @@
+/* ------------------------------------ Click on login and Sign Up to  changue and view the effect
+---------------------------------------
+*/
+
+* {
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.buttons {
+  width: 460px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Contenedor2{
+  margin-top: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 20px;
+  background-color:mediumturquoise;
+ border:5px solid lightskyblue;
+ position: initial;
+}
+.uno{ 
+  padding:10px;
+
+}
+
+#Nombreplato{
+  border-radius: 8px;
+}
+#Precioplato{border-radius: 8px;
+}
+#Descripcion{
+  border-radius: 8px;
+  
+}

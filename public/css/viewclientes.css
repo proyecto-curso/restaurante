@@ -1,0 +1,15 @@
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../img/res_den.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+.masthead-heading{
+  color: wheat;
+  -webkit-text-stroke: 2px black;
+}
+
